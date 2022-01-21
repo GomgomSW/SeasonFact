@@ -6,3 +6,9 @@ Kristian Theo Melliano – 2201809481
 <br>
 Tareq Abdurrashid Djalins – 2301933553
 
+
+
+Command :
+npm install
+
+npm run dev
