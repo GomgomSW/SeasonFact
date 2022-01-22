@@ -11,4 +11,4 @@ Tareq Abdurrashid Djalins – 2301933553
 Command :
 npm install
 
-npm run dev
+npm run dev 
