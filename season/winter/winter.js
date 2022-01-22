@@ -13,6 +13,7 @@ camera.position.z = 3
 const renderer = new THREE.WebGLRenderer()
 renderer.setSize(innerWidth, innerHeight)
 renderer.setPixelRatio(devicePixelRatio)
+renderer.setClearColor(new THREE.Color('#000000'), 1)
 document.body.appendChild(renderer.domElement)
 
 const pointLight = new THREE.PointLight(0xffffff, 0.1)
