@@ -46,7 +46,7 @@ particleGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3)
 const orb = new THREE.Points(orbGeometry, orbMaterial)
 const particleMesh = new THREE.Points(particleGeometry, particleMaterial)
 
-scene.add(orb, particleMesh)
+scene.add(particleMesh)
 
 const clock = new THREE.Clock()
 
